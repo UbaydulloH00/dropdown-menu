@@ -3,26 +3,40 @@
     margin: 0%;
     box-sizing:border-box;
 }
+body{
+    background-color: rgb(189, 189, 159);
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: inline-block;
+    display: flex;
+    gap: 250px;
+}   
 .parent{
-    background-color:aqua;
-    margin-left: 450px;
-    margin-top: 200px;
-    width: 100px;
+    position: relative;
 }
-.parent span{
-    display: none;
+.parent__mmodel{
+    position: absolute;
+
 }
-/* .parent:hover{
-    
-} */
-.parent:hover span{
-    display: block;
-    background-color: aqua;
-    width: 100px;
+.parent__xmodel{
+    position: absolute;
 }
-.parent span a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: x-large;
-    font-family: 'Courier New', Courier, monospace;
+.parent > span {
+   display: none;
+}
+.parent:hover .parent__mmodel{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+.parent:hover .parent__xmodel{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
