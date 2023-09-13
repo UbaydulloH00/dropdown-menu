@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing:border-box;
+}
+.parent{
+    background-color:aqua;
+    margin-left: 450px;
+    margin-top: 200px;
+    width: 100px;
+}
+.parent span{
+    display: none;
+}
+.parent:hover{
+    
+}
+.parent:hover span{
+    display: block;
+    background-color: aqua;
+    width: 100px;
+}
+.parent span a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
