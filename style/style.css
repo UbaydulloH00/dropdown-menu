@@ -12,9 +12,9 @@
 .parent span{
     display: none;
 }
-.parent:hover{
+/* .parent:hover{
     
-}
+} */
 .parent:hover span{
     display: block;
     background-color: aqua;
